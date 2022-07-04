@@ -12,7 +12,7 @@ public class ApplicationManager {
     public void inIt(){
         wd = new ChromeDriver();
         wd.manage().window().maximize();
-        wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/");
         helperUser = new HelperUser(wd);
     }
