@@ -17,12 +17,11 @@ public class HelperUser extends HelperBase {
     }
 
     public void openLoginRegistrationForm() {
-        WebElement loginTab = wd.findElement(By.cssSelector("a[href='/login']"));
-        loginTab.click();
+        click(By.cssSelector("[href='/login']"));
     }
 
     public void submitLogin() {
-        wd.findElement(By.xpath("//button[1]")).click();
+        click(By.xpath("//*[text()=' Login']"));
     }
 
     public void submitRegistration() {
@@ -70,6 +69,17 @@ public class HelperUser extends HelperBase {
     public void fillLoginRegistrationForm2 (User user) {
         type(By.xpath("//input[1]"), user.getEmail());
         type(By.xpath("//input[2]"), user.getPassword());
+    }
+
+    public void login(User user) {
+        openLoginRegistrationForm();
+        fillLoginRegistrationForm2(user);
+        submitLogin();
+    }
+
+
+    public boolean isSignOutNow() {
+        return isElementPresent(By.xpath("//button[text()='Sign Out']"));
     }
 }
 
