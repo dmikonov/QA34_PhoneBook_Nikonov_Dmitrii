@@ -2,9 +2,11 @@ package tests;
 
 import models.Contact;
 import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.Random;
 
 
 public class AddNewContact extends TestBase {
@@ -18,16 +20,22 @@ public class AddNewContact extends TestBase {
 
     @Test
     public void addNewContactSuccess(){
+        Random random = new Random();
+        int i = random.nextInt(1000)+1000;
         Contact contact = Contact.builder()
-                .name("Ron")
+                .name("Ron"+i)
                 .lastName("Bin")
                 .phone("0673456787")
+                .email("ddd@gmail.com")
                 .address("Tel Aviv")
                 .description("friend")
                 .build();
         app.contact().openContactForm();
         app.contact().fillContactForm(contact);
-        app.contact().save();
+        app.contact().save2();
+        Assert.assertTrue(app.contact().isContactAddedByName(contact.getName()));
+        Assert.assertTrue(app.contact().isContactAddedByPhone(contact.getPhone()));
+
 
     }
 }
