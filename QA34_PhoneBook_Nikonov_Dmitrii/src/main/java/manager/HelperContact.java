@@ -5,8 +5,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
+import java.util.Random;
 
 public class HelperContact extends HelperBase {
     public HelperContact(WebDriver wd) {
@@ -14,6 +18,7 @@ public class HelperContact extends HelperBase {
     }
 
     public void openContactForm() {
+        pause(500);
         click(By.cssSelector("[href='/add']"));
     }
 
@@ -55,5 +60,60 @@ public class HelperContact extends HelperBase {
         }
         return false;
     }
-    
+
+
+    public int removeOneContact() {
+
+        int countBefore  = countOfContacts();
+        logger.info("Count before = "+ countBefore);
+        if(!isContactListEmpty()){
+            logger.info("List of contact not empty");
+            click(By.cssSelector(".contact-item_card__2SOIM"));
+            click(By.xpath("//button[text()='Remove']"));
+            pause(500);
+
+        }
+
+        int countAfter = countOfContacts();
+        logger.info("Count after = "+ countAfter);
+        return countBefore-countAfter;
+    }
+
+    public int countOfContacts() {
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
+    }
+
+    private boolean isContactListEmpty() {
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).isEmpty();
+    }
+
+    public void removeAllContacts() {
+        while(countOfContacts()!=0){
+            click(By.cssSelector(".contact-item_card__2SOIM"));
+            click(By.xpath("//button[text()='Remove']"));
+            pause(500);
+        }
+    }
+
+    public boolean isNoContactsHere() {
+        return new WebDriverWait(wd, Duration.ofSeconds(5)).until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.cssSelector(".contact-page_message__2qafk h1")),"No Contacts here!" ));
+    }
+
+    public void providerContactData() {
+        Random random = new Random();
+        if(countOfContacts()<4){
+            for(int i = 0; i < 3; i++){
+                int index = random.nextInt(100)+100;
+                openContactForm();
+                fillContactForm(Contact.builder()
+                        .name("John"+index)
+                        .lastName("Wick")
+                        .email("wick-"+index+"mail.com")
+                        .phone("12345"+i)
+                        .address("NY")
+                        .build());
+                save2();
+            }
+        }
+    }
 }
