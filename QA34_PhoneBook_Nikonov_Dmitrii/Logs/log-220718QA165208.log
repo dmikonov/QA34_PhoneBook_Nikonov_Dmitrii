@@ -1,0 +1,12 @@
+16:52:19.597 INFO  manager.ApplicationManager - All tests run in Chrome browser
+16:52:20.489 INFO  manager.ApplicationManager - Current URL ---> https://contacts-app.tobbymarshall815.vercel.app/home
+16:52:20.550 INFO  tests.TestBase - Start method with name ->>addNewContactSuccess
+16:52:26.344 INFO  tests.TestBase - Contact is -> Contact(name=Ron1286, lastName=Bin, phone=0673456787, email=ddd@gmail.com, address=Tel Aviv, description=friend)
+16:52:31.949 INFO  tests.TestBase - Start method with name ->>loginNegativeTestsWrongEmail
+16:52:42.168 INFO  tests.TestBase - Start method with name ->>loginSuccess
+16:52:44.499 INFO  tests.TestBase - Start method with name ->>registrationSuccess
+16:52:45.209 INFO  tests.TestBase - Start method with name ->>removeAllContactsSuccess
+16:52:59.220 INFO  tests.TestBase - Start method with name ->>removeOneContactSuccess
+16:53:09.292 INFO  manager.HelperBase - Count before = 3
+16:53:09.314 INFO  manager.HelperBase - List of contact not empty
+16:53:09.968 INFO  manager.HelperBase - Count after = 2

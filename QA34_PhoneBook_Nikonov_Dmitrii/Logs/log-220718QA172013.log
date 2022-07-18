@@ -1,0 +1,59 @@
+17:20:18.309 INFO  manager.ApplicationManager - All tests run in Chrome browser
+17:20:19.263 INFO  manager.ApplicationManager - Current URL ---> https://contacts-app.tobbymarshall815.vercel.app/home
+17:20:19.316 INFO  tests.TestBase - Start method with name ->>addNewContactSuccess
+17:20:19.320 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+17:20:24.382 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+17:20:25.184 INFO  tests.TestBase - Contact is -> Contact(name=Ron1086, lastName=Bin, phone=0673456787, email=ddd@gmail.com, address=Tel Aviv, description=friend)
+17:20:27.942 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: h2
+17:20:28.437 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: h2
+17:20:28.477 INFO  tests.TestBase - Check name - Ron1086
+17:20:28.477 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: h3
+17:20:28.520 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: h3
+17:20:28.545 INFO  tests.TestBase - Check phone - 0673456787
+17:20:28.561 INFO  tests.TestBase - Start method with name ->>loginNegativeTestsWrongEmail
+17:20:28.564 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+17:20:28.605 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+17:20:29.338 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+17:20:29.479 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+17:20:29.574 INFO  tests.TestBase - Start method with name ->>loginSuccess
+17:20:29.576 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+17:20:34.645 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+17:20:35.313 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+17:20:37.102 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+17:20:37.106 INFO  tests.TestBase - Start method with name ->>registrationSuccess
+17:20:37.108 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+17:20:37.140 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+17:20:37.875 INFO  tests.TestBase - Start method with name ->>removeAllContactsSuccess
+17:20:37.877 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+17:20:38.171 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+17:20:38.172 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:20:43.229 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:20:49.612 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:20:49.943 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:20:50.646 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:20:50.699 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:20:50.869 INFO  manager.MyListener - The name of method with error ->>>click
+17:20:50.878 INFO  manager.MyListener - We have a problemorg.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-GAODKJDU', ip: '192.168.1.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ebbe807c65cfd9e57639a3007061e339, clickElement {id=e428d115-4d5e-4ecd-8b73-41b1db5bd695}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Dmitrii\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55069}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55069/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ebbe807c65cfd9e57639a3007061e339)] -> xpath: //button[text()='Remove']]
+Session ID: ebbe807c65cfd9e57639a3007061e339
+17:20:50.884 INFO  tests.TestBase - Start method with name ->>removeOneContactSuccess
+17:20:50.885 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+17:20:50.921 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+17:20:50.922 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:20:50.984 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:20:56.372 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:20:56.751 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:20:56.753 INFO  manager.HelperBase - Count before remove is 5
+17:20:56.754 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:20:56.835 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:20:56.835 INFO  manager.HelperBase - List of Contact not Empty
+17:20:57.499 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:20:57.557 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:20:57.559 INFO  manager.HelperBase - Count after remove is 4

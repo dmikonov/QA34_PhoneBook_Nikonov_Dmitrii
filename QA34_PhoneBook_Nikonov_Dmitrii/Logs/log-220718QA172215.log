@@ -1,0 +1,30 @@
+17:22:20.251 INFO  manager.ApplicationManager - All tests run in Chrome browser
+17:22:21.151 INFO  manager.ApplicationManager - Current URL ---> https://contacts-app.tobbymarshall815.vercel.app/home
+17:22:21.203 INFO  tests.TestBase - Start method with name ->>removeAllContactsSuccess
+17:22:21.206 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+17:22:26.273 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+17:22:27.074 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:22:32.150 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:22:37.926 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:22:38.995 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:22:39.672 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:22:39.743 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:22:40.465 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:22:40.521 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:22:41.180 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:22:41.225 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:22:41.908 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:22:41.956 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:22:42.650 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:22:42.684 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:22:42.737 INFO  manager.MyListener - The name of method with error ->>>click
+17:22:42.744 INFO  manager.MyListener - We have a problemorg.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-GAODKJDU', ip: '192.168.1.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83ea5a2734a76d0f170e0c399e13df5a, clickElement {id=e70422ec-e841-44c4-abfd-9e4bcf6f326c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Dmitrii\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55218}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55218/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (83ea5a2734a76d0f170e0c399e13df5a)] -> css selector: .contact-item_card__2SOIM]
+Session ID: 83ea5a2734a76d0f170e0c399e13df5a

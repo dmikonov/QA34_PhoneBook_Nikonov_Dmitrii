@@ -1,0 +1,16 @@
+17:17:15.597 INFO  manager.ApplicationManager - All tests run in Chrome browser
+17:17:17.093 INFO  manager.ApplicationManager - Current URL ---> https://contacts-app.tobbymarshall815.vercel.app/home
+17:17:17.151 INFO  tests.TestBase - Start method with name ->>removeOneContactSuccess
+17:17:17.155 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+17:17:22.230 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+17:17:22.994 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:17:24.516 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:17:30.443 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:17:31.405 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:17:31.406 INFO  manager.HelperBase - Count before = 4
+17:17:31.407 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:17:31.497 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:17:31.498 INFO  manager.HelperBase - List of contact not empty
+17:17:32.278 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:17:32.351 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:17:32.352 INFO  manager.HelperBase - Count after = 4

@@ -1,0 +1,25 @@
+17:26:49.932 INFO  manager.ApplicationManager - All tests run in Chrome browser
+17:26:51.349 INFO  manager.ApplicationManager - Current URL ---> https://contacts-app.tobbymarshall815.vercel.app/home
+17:26:51.406 INFO  tests.TestBase - Start method with name ->>removeAllContactsSuccess
+17:26:51.410 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+17:26:56.476 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+17:26:57.218 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:26:58.247 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:27:04.004 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:27:04.857 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:27:05.565 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:27:05.670 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:27:06.359 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:27:06.426 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:27:07.088 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:27:07.163 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:27:07.849 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:27:07.908 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:27:08.586 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:27:08.634 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:27:09.313 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:27:09.348 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:27:10.021 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:27:10.056 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+17:27:10.733 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+17:27:15.797 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM

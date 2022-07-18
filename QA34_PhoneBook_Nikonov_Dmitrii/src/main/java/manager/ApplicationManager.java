@@ -2,6 +2,8 @@ package manager;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringDecorator;
+import org.openqa.selenium.support.events.WebDriverListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,6 +18,8 @@ public class ApplicationManager {
 
     public void inIt(){
         wd = new ChromeDriver();
+        WebDriverListener listener = new MyListener();
+        wd = new EventFiringDecorator(listener).decorate(wd);
         logger.info("All tests run in Chrome browser");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

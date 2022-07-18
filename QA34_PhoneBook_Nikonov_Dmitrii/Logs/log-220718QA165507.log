@@ -1,0 +1,3 @@
+16:55:10.307 INFO  manager.ApplicationManager - All tests run in Chrome browser
+16:55:11.989 INFO  manager.ApplicationManager - Current URL ---> https://contacts-app.tobbymarshall815.vercel.app/home
+16:55:12.045 INFO  tests.TestBase - Start method with name ->>registrationSuccess

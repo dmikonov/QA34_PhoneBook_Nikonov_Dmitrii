@@ -65,9 +65,9 @@ public class HelperContact extends HelperBase {
     public int removeOneContact() {
 
         int countBefore  = countOfContacts();
-        logger.info("Count before = "+ countBefore);
+        logger.info("Count before remove is "  +countBefore);
         if(!isContactListEmpty()){
-            logger.info("List of contact not empty");
+            logger.info("List of Contact not Empty");
             click(By.cssSelector(".contact-item_card__2SOIM"));
             click(By.xpath("//button[text()='Remove']"));
             pause(500);
@@ -75,7 +75,7 @@ public class HelperContact extends HelperBase {
         }
 
         int countAfter = countOfContacts();
-        logger.info("Count after = "+ countAfter);
+        logger.info("Count after remove is " +countAfter);
         return countBefore-countAfter;
     }
 
@@ -83,12 +83,12 @@ public class HelperContact extends HelperBase {
         return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
     }
 
-    private boolean isContactListEmpty() {
+    public boolean isContactListEmpty() {
         return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).isEmpty();
     }
 
     public void removeAllContacts() {
-        while(countOfContacts()!=0){
+        while (countOfContacts()!=0){
             click(By.cssSelector(".contact-item_card__2SOIM"));
             click(By.xpath("//button[text()='Remove']"));
             pause(500);

@@ -16,6 +16,7 @@ public class RemoveContactTests extends TestBase{
 
     @Test
     public void removeOneContactSuccess(){
+        app.contact().pause(500);
         Assert.assertEquals(app.contact().removeOneContact(),1);
 
     }
@@ -23,6 +24,7 @@ public class RemoveContactTests extends TestBase{
     @Test
     public void removeAllContactsSuccess(){
         app.contact().removeAllContacts();
+        app.contact().pause(500);
         Assert.assertTrue(app.contact().isNoContactsHere());
     }
 }
