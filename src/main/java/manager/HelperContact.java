@@ -18,7 +18,7 @@ public class HelperContact extends HelperBase {
     }
 
     public void openContactForm() {
-        pause(500);
+        pause(2000);
         click(By.cssSelector("[href='/add']"));
     }
 
@@ -39,6 +39,7 @@ public class HelperContact extends HelperBase {
     public void save2() {
         wd.findElement(By.cssSelector("input[placeholder='description']")).sendKeys(Keys.TAB);
         wd.findElement(By.cssSelector(".add_form__2rsm2 button")).sendKeys(Keys.ENTER);
+
     }
 
     public boolean isContactAddedByName(String name) {

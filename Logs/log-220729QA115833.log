@@ -1,0 +1,25 @@
+11:58:37.657 INFO  manager.ApplicationManager - All tests run in Chrome browser
+11:58:38.609 INFO  manager.ApplicationManager - Current URL ---> https://contacts-app.tobbymarshall815.vercel.app/home
+11:58:38.690 INFO  tests.TestBase - Start method with name ->>addNewContactSuccess
+11:58:38.694 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+11:58:43.739 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+11:58:43.742 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/login']
+11:58:43.915 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //input[1]
+11:58:44.393 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //input[2]
+11:58:44.604 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //*[text()=' Login']
+11:58:44.808 INFO  tests.TestBase - Contact is -> Contact(name=Ron1734, lastName=Bin, phone=0673456787, email=ddd@gmail.com, address=Tel Aviv, description=friend)
+11:58:46.816 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/add']
+11:58:46.954 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Name']
+11:58:47.197 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Last Name']
+11:58:47.455 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Phone']
+11:58:47.768 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='email']
+11:58:48.016 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Address']
+11:58:48.299 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='description']
+11:58:48.533 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='description']
+11:58:48.629 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .add_form__2rsm2 button
+11:58:48.757 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: h2
+11:58:49.123 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: h2
+11:58:49.159 INFO  tests.TestBase - Check name - Ron1734
+11:58:49.160 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: h3
+11:58:49.206 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: h3
+11:58:49.240 INFO  tests.TestBase - Check phone - 0673456787

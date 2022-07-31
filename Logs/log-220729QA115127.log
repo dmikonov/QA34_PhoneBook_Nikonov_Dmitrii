@@ -1,0 +1,149 @@
+11:51:34.812 INFO  manager.ApplicationManager - All tests run in Chrome browser
+11:51:36.513 INFO  manager.ApplicationManager - Current URL ---> https://contacts-app.tobbymarshall815.vercel.app/home
+11:51:36.588 INFO  tests.TestBase - Start method with name ->>addNewContactSuccess
+11:51:36.591 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+11:51:41.621 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+11:51:41.626 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/login']
+11:51:41.795 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //input[1]
+11:51:42.128 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //input[2]
+11:51:42.438 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //*[text()=' Login']
+11:51:42.639 INFO  tests.TestBase - Contact is -> Contact(name=Ron1983, lastName=Bin, phone=0673456787, email=ddd@gmail.com, address=Tel Aviv, description=friend)
+11:51:43.141 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/add']
+11:51:48.178 INFO  manager.MyListener - The name of method with error --->findElement
+11:51:48.185 INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[href='/add']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-GAODKJDU', ip: '192.168.1.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e3eca363a1aefb05abfcbeed3b92c77, findElement {using=css selector, value=[href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Dmitrii\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55454}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55454/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e3eca363a1aefb05abfcbeed3b92c77
+11:51:48.198 INFO  tests.TestBase - Start method with name ->>loginNegativeTestsWrongEmail
+11:51:48.200 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+11:51:53.230 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+11:51:53.232 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/login']
+11:51:53.399 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //input[1]
+11:51:58.459 INFO  manager.MyListener - The name of method with error --->findElement
+11:51:58.460 INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[1]"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-GAODKJDU', ip: '192.168.1.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e3eca363a1aefb05abfcbeed3b92c77, findElement {using=xpath, value=//input[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Dmitrii\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55454}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55454/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e3eca363a1aefb05abfcbeed3b92c77
+11:51:58.466 INFO  tests.TestBase - Start method with name ->>loginSuccess
+11:51:58.469 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+11:51:58.527 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+11:51:58.528 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //button[text()='Sign Out']
+11:51:58.683 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/login']
+11:51:58.823 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //input[1]
+11:51:59.135 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //input[2]
+11:51:59.405 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //*[text()=' Login']
+11:51:59.517 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+11:51:59.932 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+11:51:59.944 INFO  tests.TestBase - Start method with name ->>registrationSuccess
+11:51:59.946 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+11:51:59.989 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+11:51:59.991 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //button[text()='Sign Out']
+11:52:00.122 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/login']
+11:52:00.235 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //input[1]
+11:52:00.510 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //input[2]
+11:52:00.719 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //button[2]
+11:52:00.820 INFO  tests.TestBase - Start method with name ->>removeAllContactsSuccess
+11:52:00.822 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+11:52:01.491 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+11:52:01.492 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+11:52:06.506 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+11:52:07.008 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/add']
+11:52:07.132 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Name']
+11:52:07.390 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Last Name']
+11:52:07.624 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Phone']
+11:52:07.825 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='email']
+11:52:08.031 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Address']
+11:52:08.238 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='description']
+11:52:08.409 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .add_form__2rsm2 button
+11:52:09.035 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/add']
+11:52:09.408 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Name']
+11:52:09.644 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Last Name']
+11:52:09.830 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Phone']
+11:52:10.055 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='email']
+11:52:10.306 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Address']
+11:52:10.500 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='description']
+11:52:10.621 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .add_form__2rsm2 button
+11:52:11.224 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/add']
+11:52:11.320 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Name']
+11:52:11.540 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Last Name']
+11:52:11.739 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Phone']
+11:52:11.971 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='email']
+11:52:12.194 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Address']
+11:52:12.390 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='description']
+11:52:12.508 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .add_form__2rsm2 button
+11:52:12.618 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+11:52:13.420 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+11:52:13.422 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .contact-item_card__2SOIM
+11:52:13.512 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //button[text()='Remove']
+11:52:14.124 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+11:52:14.170 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+11:52:14.170 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .contact-item_card__2SOIM
+11:52:14.253 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //button[text()='Remove']
+11:52:14.839 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+11:52:14.878 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+11:52:14.879 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .contact-item_card__2SOIM
+11:52:14.956 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //button[text()='Remove']
+11:52:15.542 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+11:52:15.576 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+11:52:15.576 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .contact-item_card__2SOIM
+11:52:15.638 INFO  manager.MyListener - The name of method with error --->click
+11:52:15.641 INFO  manager.MyListener - We have a problem ---> org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'LAPTOP-GAODKJDU', ip: '192.168.1.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e3eca363a1aefb05abfcbeed3b92c77, clickElement {id=d633d425-3ea7-4c82-b47f-1f2ac419e6fc}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Dmitrii\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55454}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55454/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7e3eca363a1aefb05abfcbeed3b92c77)] -> css selector: .contact-item_card__2SOIM]
+Session ID: 7e3eca363a1aefb05abfcbeed3b92c77
+11:52:15.644 INFO  tests.TestBase - Start method with name ->>removeOneContactSuccess
+11:52:15.646 INFO  manager.MyListener - WebDriver start find element -> By.xpath: //button[text()='Sign Out']
+11:52:15.685 INFO  manager.MyListener - WebDrive found element by locator -->By.xpath: //button[text()='Sign Out']
+11:52:15.686 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+11:52:20.749 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+11:52:21.253 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/add']
+11:52:21.333 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Name']
+11:52:21.541 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Last Name']
+11:52:21.727 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Phone']
+11:52:21.940 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='email']
+11:52:22.177 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Address']
+11:52:22.351 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='description']
+11:52:22.468 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .add_form__2rsm2 button
+11:52:23.109 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/add']
+11:52:23.235 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Name']
+11:52:23.458 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Last Name']
+11:52:23.643 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Phone']
+11:52:23.850 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='email']
+11:52:24.071 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Address']
+11:52:24.248 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='description']
+11:52:24.363 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .add_form__2rsm2 button
+11:52:24.986 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: [href='/add']
+11:52:25.073 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Name']
+11:52:25.301 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Last Name']
+11:52:25.479 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Phone']
+11:52:25.670 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='email']
+11:52:25.903 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='Address']
+11:52:26.092 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: input[placeholder='description']
+11:52:26.214 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .add_form__2rsm2 button
+11:52:26.828 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+11:52:26.880 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+11:52:26.881 INFO  manager.HelperBase - Count before remove is 3
+11:52:26.882 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+11:52:26.938 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+11:52:26.938 INFO  manager.HelperBase - List of Contact not Empty
+11:52:26.939 INFO  manager.MyListener - WebDriver starts find element ---> By.cssSelector: .contact-item_card__2SOIM
+11:52:27.032 INFO  manager.MyListener - WebDriver starts find element ---> By.xpath: //button[text()='Remove']
+11:52:27.626 INFO  manager.MyListener - WebDriver start find element -> By.cssSelector: .contact-item_card__2SOIM
+11:52:27.674 INFO  manager.MyListener - WebDrive found element by locator -->By.cssSelector: .contact-item_card__2SOIM
+11:52:27.675 INFO  manager.HelperBase - Count after remove is 2
